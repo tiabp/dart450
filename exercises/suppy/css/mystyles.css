@@ -19,7 +19,7 @@ body {
 .resize {
 	animation-name: resize;
 	animation-duration: 5s;
-	animation-fill-mode: forwards;
+	animation-fill-mode: backwards;
 }
 
 @keyframes resize {
