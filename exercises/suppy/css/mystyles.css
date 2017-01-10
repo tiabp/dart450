@@ -1,0 +1,27 @@
+/*
+DART450
+Week 01
+CSS Animate on hover
+Just some very basic styling of the text
+*/
+
+body {
+	margin: 50px;
+}
+
+#text {
+	font-family: Helvetica, sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+	color: black;
+}
+
+.resize {
+	animation-name: resize;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes resize {
+	100% { font-size: 2em; }
+}
